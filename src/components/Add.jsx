@@ -6,6 +6,7 @@ import { toast } from 'react-toastify';
 import { addStudentApi } from '../services/allApi';
 import { addResponseContext } from '../Contextapi/Contextapi';
 function Add() { 
+    
 
     const [show, setShow] = useState(false);
 
