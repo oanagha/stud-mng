@@ -67,7 +67,7 @@ function Add() {
   }
     return (
         <>
-            <button className='btn btn-danger ' onClick={handleShow}>Add Students<i className="fa-solid fa-user-plus fs-6 ms-1" /></button>
+            <button className='btn btn-info ' onClick={handleShow}>Add Students<i className="fa-solid fa-user-plus fs-6 ms-1" /></button>
 
             <Modal
                 show={show}
