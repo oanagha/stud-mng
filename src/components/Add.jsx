@@ -61,9 +61,7 @@ function Add() {
                         toast.error("Adding Failed")
                         
                     }
-
-            }
-            
+            }            
   }
     return (
         <>
@@ -77,7 +75,7 @@ function Add() {
                 className='modal-xl'
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>Add Student Details</Modal.Title>
+                    <Modal.Title>Add  Details of students</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <Row>
